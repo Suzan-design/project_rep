@@ -9,6 +9,17 @@ var crm_detail = document.getElementById("crm_detail");
 var erp_detail = document.getElementById("erp_detail");
 var cms_detail = document.getElementById("cms_detail");
 
+window.onscroll = function () {
+    var navbar = document.getElementById("nav");
+
+    if (scrollY > 700) {
+        navbar.classList.add("sticky");
+    }
+    else {
+        navbar.classList.remove("sticky");
+    }
+}
+
 CRM_detail_button.onclick = function () {
     crm_detail.innerHTML = "نظام إلكتروني متكامل لإدارة علاقات الشركة مع العملاء ( زبائن – موردين – موظفين – شركات منافسة – شركات مساعدة )";
 }

@@ -3,6 +3,17 @@ var products = document.getElementById("products");
 var trainers = document.getElementById("trainers");
 var contact = document.getElementById("contact");
 
+window.onscroll = function () {
+    var navbar = document.getElementById("nav");
+
+    if (scrollY > 700) {
+        navbar.classList.add("sticky");
+    }
+    else {
+        navbar.classList.remove("sticky");
+    }
+}
+
 home.onmouseover = function () {
     home.style.color = "blue";
 }

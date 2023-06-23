@@ -1,0 +1,62 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-item {
+    margin: 10px 20px;
+}
+
+.scrollspy-example {
+    color: gray;
+    text-align: center;
+}
+
+.scrollspy-example p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.carousel-caption h5 {
+    color: rgb(55, 97, 153);
+}
+
+.carousel-caption p {
+    color: gray;
+}
+
+.abstract {
+    color: gray;
+}
+
+.abstract .title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.abstract .detail {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid {
+    color: gray;
+}
+
+.container-fluid .card {
+    width: 18rem;
+}
+
+.footer {
+    background-color: rgb(66, 106, 253);
+    margin-top: 20px;
+    height: 50px;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center
+}
