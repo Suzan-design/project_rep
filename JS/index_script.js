@@ -6,14 +6,13 @@ var contact = document.getElementById("contact");
 window.onscroll = function () {
     var navbar = document.getElementById("nav");
 
-    if (scrollY > 700) {
+    if (scrollY > 680) {
         navbar.classList.add("sticky");
     }
     else {
         navbar.classList.remove("sticky");
     }
 }
-
 home.onmouseover = function () {
     home.style.color = "blue";
 }

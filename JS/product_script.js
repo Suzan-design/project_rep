@@ -12,7 +12,7 @@ var cms_detail = document.getElementById("cms_detail");
 window.onscroll = function () {
     var navbar = document.getElementById("nav");
 
-    if (scrollY > 700) {
+    if (scrollY > 680) {
         navbar.classList.add("sticky");
     }
     else {
@@ -29,6 +29,13 @@ ERP_detail_button.onclick = function () {
 CMS_detail_button.onclick = function () {
     cms_detail.innerHTML = "نظام إلكتروني متكامل لأرشفة عمليات القبض والدفع لقسم الصندوق أو الخزينة في الشركة";
 }
+
+$("figure").onmouseout(
+    function () {
+        $(this).removeClass("hover");
+    }
+);
+
 home.onmouseover = function () {
     home.style.color = "blue";
 }
